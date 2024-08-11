@@ -22,7 +22,7 @@ connectDB();
 const app = express();
 app.use(cors(
   {
-    origin:["https://mern-e-commerce-store-three.vercel.app/"],
+    origin:["https://mern-e-commerce-store-three.vercel.app"],
     methods: ["GET", "POST"],
     credentials:true
 }));
