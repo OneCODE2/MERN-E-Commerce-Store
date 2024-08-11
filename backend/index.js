@@ -3,6 +3,7 @@ import path from "path";
 import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
+const cors = require('cors')
 
 
 // Utiles
@@ -35,6 +36,7 @@ app.use("/api/category", categoryRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/upload", uploadRoutes);
 app.use("/api/orders", orderRoutes);
+mongoose.connect(mongodb+srv://forbrave957:Qi8sBytH0HEnb7uC@cluster0.xl8sksp.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0 );
 
 app.get("/api/config/paypal", (req, res) => {
   res.send({ clientId: process.env.PAYPAL_CLIENT_ID });
