@@ -1,6 +1,8 @@
 # Project Demo
+![thumb](https://github.com/user-attachments/assets/38ac6dc7-bb6a-4803-89fb-ad3ac5d2bb96)
 
-[![Alt text](https://img.youtube.com/vi/lXk14qt2D28/0.jpg)](https://www.youtube.com/watch?v=lXk14qt2D28)
+Project Link : https://mern-e-commerce-store-three.vercel.app/
+
 
 ## Getting Started
 
@@ -82,4 +84,4 @@ Follow these setps 👇👇
 
 You can deploy frontend into vercel or netlify also. Thanks
 
-`Build with 💛 by Hasan`
+
