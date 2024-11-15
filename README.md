@@ -4,36 +4,27 @@
 
 ![Course Thumbnail](/thumb.png)
 
-MERN E-commerce Store Project
+Project Overview
+The MERN MCommerce project is a powerful e-commerce platform that offers various features, including:
 
-Objective:
-Developed a full-stack e-commerce platform to provide a seamless online shopping experience, focusing on scalability, user engagement, and operational efficiency.
+User registration and authentication with JSON Web Tokens.
+Browsing and searching for products.
+Adding products to the shopping cart.
+Managing the shopping cart (updating quantities, removing items).
+Checkout process
+Viewing and managing orders.
+Admin panel to manage products and categories.
+Thank you for viewing MERN MCommerce project! Happy coding! 🚀
 
-Implementation Details:
+Install Dependencies
+For Backend - npm i
 
-Frontend Development:
+For Frontend - cd frontend  npm i
 
-Built a responsive user interface using React.js and Tailwind CSS, ensuring a modern and user-friendly design.
-Enhanced user engagement with dynamic product browsing, filtering, and searching functionalities.
+Env Variables
+Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
 
-Backend Development:
+Essential Variables PORT= DB_URI =
 
-Implemented robust RESTful APIs using Node.js and Express.js to handle user authentication, product management, and order processing.
-Utilized MongoDB for scalable database management, ensuring fast and reliable data storage and retrieval.
+JWT_SECRET= JWT_EXPIRE= COOKIE_EXPIRE=
 
-Security and Payments:
-
-Integrated JWT (JSON Web Tokens) for secure user authentication and session management.
-Added Stripe for seamless payment processing, reducing transaction errors and ensuring secure handling of payment data.
-
-Admin Dashboard:
-
-Designed a custom admin panel for managing products, users, and orders efficiently, significantly improving operational workflows.
-
-Practical Usage and Impact:
-
-Enabled secure and efficient transactions, improving customer trust and reducing checkout friction.
-Provided a comprehensive platform for managing online stores, catering to business scalability.
-Increased user engagement by 30% through responsive and interactive UI.
-Reduced transaction errors by 20% with secure Stripe integration.
-Boosted operational efficiency by 40% with the custom admin dashboard, streamlining product and order management.
